@@ -22,6 +22,7 @@ namespace homeWork_loop
             {
                 Console.WriteLine(inputUserText);
             }
+
             Console.ReadKey();
         }
     }
