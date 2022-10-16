@@ -18,7 +18,10 @@ namespace homeWork_loop
             Console.Write("Сколько раз текст должен повториться: ");
             numberRepeats = Convert.ToInt32(Console.ReadLine());
 
-            for (int i = 0; i < numberRepeats; i++) Console.WriteLine(inputUserText);
+            for (int i = 0; i < numberRepeats; i++)
+            {
+                Console.WriteLine(inputUserText);
+            }
             Console.ReadKey();
         }
     }
